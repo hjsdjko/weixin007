@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "table-checkbox": "/components/zb-table/components/table-checkbox",
+    "table-summary": "/components/zb-table/components/table-summary",
+    "table-side-summary": "/components/zb-table/components/table-side-summary",
+    "table-h5-summary": "/components/zb-table/components/table-h5-summary",
+    "zb-load-more": "/components/zb-table/components/zb-load-more"
+  }
+}

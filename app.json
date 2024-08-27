@@ -1,0 +1,109 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/lvyangxiangmu/list",
+    "pages/lvyangxiangmu/add-or-update",
+    "pages/lvyangxiangmu/detail",
+    "pages/xiangmuleixing/list",
+    "pages/xiangmuleixing/add-or-update",
+    "pages/xiangmuleixing/detail",
+    "pages/xiangmudingdan/list",
+    "pages/xiangmudingdan/add-or-update",
+    "pages/xiangmudingdan/detail",
+    "pages/jiankangdangan/list",
+    "pages/jiankangdangan/add-or-update",
+    "pages/jiankangdangan/detail",
+    "pages/jiankangjianyi/list",
+    "pages/jiankangjianyi/add-or-update",
+    "pages/jiankangjianyi/detail",
+    "pages/newstype/list",
+    "pages/newstype/add-or-update",
+    "pages/newstype/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/popupremind/list",
+    "pages/popupremind/add-or-update",
+    "pages/popupremind/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discusslvyangxiangmu/list",
+    "pages/discusslvyangxiangmu/add-or-update",
+    "pages/discusslvyangxiangmu/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/map/index",
+    "pages/weather/index",
+    "common/linkOthers/linkOthers"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "巴马旅居养老小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#76C4D8",
+    "selectedColor": "#20849F",
+    "borderStyle": "white",
+    "backgroundColor": "#EEFCFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lvyangxiangmu/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "旅养项目"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "iconPath": "/static/tabs/map.png",
+        "selectedIconPath": "/static/tabs/map_act.png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/weather/index",
+        "iconPath": "/static/tabs/weather.png",
+        "selectedIconPath": "/static/tabs/weather_act.png",
+        "text": "天气"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}

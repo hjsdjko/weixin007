@@ -1,0 +1,1 @@
+<view class="progress_box"><canvas class="progress_bg" style="{{'width:'+(progress_width+'px')+';'+('height:'+(progress_height+'px')+';')}}" canvas-id="cpbg"></canvas><canvas class="progress_bar" style="{{'width:'+(progress_width+'px')+';'+('height:'+(progress_height+'px')+';')}}" canvas-id="cpbar"></canvas></view>

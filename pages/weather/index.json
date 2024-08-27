@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#EEFCFF",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "天气",
+  "usingComponents": {
+    "custom-progress": "/components/progress/CustomProgress"
+  }
+}
